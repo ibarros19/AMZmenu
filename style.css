@@ -1,0 +1,126 @@
+
+* {
+    font-family: sans-serif;
+}
+
+.lighthouse {
+    background-color: white;
+    color: rgb(97, 182, 139) !important;
+}
+
+.warn {
+    background-color: rgb(9, 158, 47);
+}
+
+.preenf {
+    background-color: rgb(255, 230, 0);
+    color: black !important;
+}
+
+.postenf {
+    background-color: crimson;
+}
+
+.acs {
+    background-color:darkcyan;
+}
+
+.nowrap1 {
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+#horizontalmenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#horizontalmenu>ul>li {
+    float: left;
+    position: relative;
+    border: 1px solid #555555;
+    border-radius: 3px;
+    background-color: #383838;
+}
+
+#horizontalmenu>ul>li>a {
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    color: white;
+
+}
+
+
+#horizontalmenu>ul>li>ul {
+    background-color: #f5bb70;
+    display: none;
+    width: 150px;
+    top: 100%;
+    left: 0;
+    position: absolute;
+}
+
+#horizontalmenu>ul>li>ul>li {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+#horizontalmenu>ul>li>ul>li>a {
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    color: black;
+}
+
+#horizontalmenu>ul>li:hover>ul {
+    display: block;
+}
+
+#horizontalmenu>ul>li>ul>li>ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 150px;
+}
+
+#horizontalmenu>ul>li>ul>li>ul>li>a {
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    color: black;
+    background-color: #f5bb70;
+}
+
+#horizontalmenu>ul>li>ul>li:hover ul {
+    display: block;
+}
+
+  
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.p-center {
+    text-align: center;
+    background-color: #f5bb70;
+    padding: 10px;
+    
+}
+
+a {
+    text-align: center;
+}
+
+.hover:hover {
+    background-color: rgb(248, 165, 11) !important;
+}
+
+.button {
+    display: inline-block;
+    
+}
